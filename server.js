@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
-const db = require('./db');
+
 const { createUser, findUserByEmail, comparePassword } = require('./models/User');
 const { createTodo, getTodos, updateTodo, deleteTodo } = require('./models/Todo');
 

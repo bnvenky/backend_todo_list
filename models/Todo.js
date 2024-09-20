@@ -1,4 +1,4 @@
-const db = require('./db');
+const db = require('../db');
 
 // Function to create a new todo
 const createTodo = (task) => {
